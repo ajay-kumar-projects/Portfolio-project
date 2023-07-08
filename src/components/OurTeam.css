@@ -1,0 +1,79 @@
+.ourBg{
+    background-image: url('https://img.freepik.com/free-vector/bokeh-background_23-2148486863.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 35px;
+  }
+  .ourBg h1{
+    font-size: 55px;
+    color: white;
+    font-family: cursive;
+    font-variant: small-caps;
+    font-style: oblique;
+  }
+  
+  .cards{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-between; */
+    flex-flow: wrap;
+  }  
+  .card{
+    width: 18rem;
+  }
+  .ourBg img{
+    height: 235px;
+    width: 285px;
+    
+  }
+  .card p{
+    color: rgb(247, 255, 244);
+    text-align: center;
+    font-style: italic;
+  }
+  .card h5{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+  }
+  .cards h1{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(52, 15, 200);
+    font-style: italic;
+    
+  
+  }
+  
+  .card1 text1{
+    text-align: center;
+    color: black;
+  }
+  
+  .text-dark a{
+    text-align: center;
+  }
+  
+  @media screen and (max-width:300px) {
+  
+    .card img{
+        height: 200px;
+        width: 235px;    
+    }
+  
+    .card{
+        width: 14.8rem;
+        height: 29rem;
+    }
+  }
+  
+  @media (max-width:600px) {
+    .ourBg{
+      width: 40rem;
+     
+    }
+  }
+  

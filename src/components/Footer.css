@@ -1,0 +1,93 @@
+.foot{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    background-color: black;
+    padding: 55px 25px;
+    margin-top: 1px;   
+  
+}
+ .port{
+  width: 25%;
+}
+.port h1{
+  padding-top: 40px;
+}
+
+.foot h1{
+    color: white;
+    font-size: 26px;
+    font-family: 'Kalam', cursive;
+}
+
+.foot li{
+     list-style-type: none;
+     color: white;
+     font-size: 18px;
+     font-family: 'Eagle Lake', cursive;
+  
+}
+
+.foot a{
+
+    text-decoration: none;
+    color:white;
+}
+
+#carouselExampleInterval img{
+
+    height: 400px;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+  }
+  .port img {
+    height: 135px;
+    width: 190px;
+    border-radius: 60px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    margin-right: 25px;
+    
+  }
+  @media (max-width:900px) {
+    .foot{
+      width: 56rem;
+    }
+    .last{
+      width: 56rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .foot {
+      flex-direction: column;
+      align-items: center;
+    }
+    .last{
+      width: 56rem;
+    }
+  }
+  
+  @media (max-width:540px) {
+    .foot{
+      
+      width: 40rem;
+      text-align: center;
+      padding-right: 25px;
+      
+    }
+  
+  }
+  @media (max-width:600px) {
+    .foot{
+      width: 56rem;
+      text-align: center;
+      padding-right: 25px;
+    }
+    .last{
+      width: 56rem;
+    }
+  }
+  
+   

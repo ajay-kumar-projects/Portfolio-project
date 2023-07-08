@@ -1,0 +1,45 @@
+.cardbody{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  gap:30px;
+  margin-top: 35px;
+  padding-bottom: 35px;
+}
+
+.cardbody a{
+  padding: 8px;
+}
+
+.probg p{
+
+  font-size: 22px;
+  color: black;
+}
+
+.probg{
+ 
+  background-image: url("https://img.freepik.com/free-vector/bokeh-background_23-2148486863.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  color: aliceblue;
+  width:100%;
+  padding-top: 30px;
+}
+
+@media screen and (max-width:900px) {
+  .probg{
+    width: 56rem;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+  
+  .probg{
+    width: 56rem;
+  }
+}

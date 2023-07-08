@@ -1,0 +1,36 @@
+.skillbody{
+
+    /* margin-top: 150px; */
+    padding-top: 100px;
+    /* background-image: url('https://images.pexels.com/photos/1146708/pexels-photo-1146708.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+    background-image: url("https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvbGlkJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 23px;  
+
+}
+.skill img{
+    border-radius: 40%;
+    height: 195px;
+    width: 250px;
+    margin: 35px;
+    object-fit: cover;
+    transition:all .3s ease-in-out;
+    
+}
+.skill{
+    padding-bottom: 100px;
+}
+@media screen and (max-width:900px) {
+    .skillbody{
+        width: 56rem;
+    }
+}
+@media screen and (max-width:600px){
+
+    .skillbody{
+         width: 56rem;
+    }
+    
+}

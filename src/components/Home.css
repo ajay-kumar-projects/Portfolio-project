@@ -1,0 +1,236 @@
+  .parent{
+    
+    /* background:linear-gradient(to right , rgba(0, 0, 255, 0.553) , rgba(255, 87, 115, 0.945));   */
+    /* background-image: url("./homeBg.jpeg"); */
+    /* background-image: url("./team.jpeg"); */
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6_RYZ7yJoVdcF4ePW-pCVLpA8j4GDPYecr1fjUKCGvKztaR8HwvSmy8C9d4pTilOfmjY&usqp=CAU'); */
+    /* background-image: url("../../public/bg.jpeg.jpeg"); */
+    background-image: url("https://img.freepik.com/free-vector/bokeh-background_23-2148486863.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    padding-top: 50px;
+    
+  }
+ 
+  .exmp h2{
+    text-align: start;
+    padding-left:16%;
+    margin-top:65px;
+    font-size: 66px;
+   }
+
+  .exmp h1{
+    text-align: start;
+    padding-left:16%;
+    font-size: 37px;
+    
+   }
+
+   .exmp p{
+    text-indent: 80px;
+    font-size: 20px;
+    font-weight: 450;
+    width: 50%;
+    float: left;
+    padding-left: 25px;
+    padding-top: 35px;
+   }
+
+   .exmp img{
+    height: 320px;
+    border-radius: 30px;
+    margin-top: -85px;
+    
+   }
+
+ .icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 52%;
+    
+}
+
+.icons i{
+    color: black;
+    font-size: 30px;
+}
+
+.bi-facebook:hover{
+
+    color: blue;
+}
+
+.bi-twitter:hover{
+
+    color:deepskyblue;
+}
+
+.bi-instagram:hover{
+
+    color: rgb(230, 18, 53);
+}
+.bi-linkedin:hover{
+  color:mediumblue;
+}
+.bi-github:hover{
+  color:blueviolet;
+}
+.bi-google:hover{
+  color: orangered;
+}
+
+@media screen and (max-width:930px) {
+  .parent{
+    padding-bottom:65px ;
+  }
+  .exmp p{
+    float: left;
+    width: 30%;
+    margin-left: 45px;
+    text-align: justify;
+    
+   }
+
+   .parent h1{
+
+    margin-top: 2px;
+   }
+   .exmp img{
+    height: 250px;
+    margin-top: 10px;
+   }
+  
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    
+
+  }
+
+@media screen and (max-width:580px) {
+
+  .parent{
+    width: 40rem;
+  }
+  
+}
+ 
+ }
+
+ 
+ @media screen and (max-width:580px){
+  
+  .parent{
+
+    width: 40rem;
+  }
+  .carousel{
+    width: 40rem;
+  }
+
+
+ }
+
+
+  
+   .exmp{
+    /* display: flex; */
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .boxs{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.boxs h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.boxs p{
+    font-size: 25px;
+}
+.team1{
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.team1 h3{
+  border: 3px solid blue;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+ 
+}
+
+@media (max-width:950px) {
+  .boxs{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+  }
+  .team1{
+
+      border: 2px solid black;
+      width: 300px;
+      padding: 20px;
+  }
+}
+   
+.head{
+  background:#f5f4f5;
+  box-sizing: border-box;
+  box-shadow: 5px 8px 8px ;
+  border-radius: 30px;
+  height: 200px;
+  padding: 10px;
+ margin-left: 30px;
+ margin-right: 30px;
+ margin: 20px;
+ flex: 3;
+ flex-basis: 900px;
+ margin-bottom: 10px;
+ height: auto;
+ /* padding-bottom: 5px; */
+
+}
+.head:hover{
+  
+      color: #0a0a0a;
+      background:linear-gradient(to right bottom,rgb(250, 44, 44),skyblue,rgb(139, 240, 139),rgb(245, 245, 46));
+  
+ 
+}
+.head h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style:bold;
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.head p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+

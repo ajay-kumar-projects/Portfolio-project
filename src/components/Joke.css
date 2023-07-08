@@ -1,0 +1,60 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .jokeBox {
+    padding-top: 165px;
+    display: grid;
+    place-items: center;
+    
+  }
+  
+  .jokeBox h1 {
+    font-size: 3rem;
+    color: royalblue;
+
+  }
+
+  .jokeBox p {
+
+    font-size: 25px;
+    font-weight:600;
+    padding: 10px 75px;
+
+    
+    
+  }
+  
+  .jokebg{
+
+    background-image: url("https://img.freepik.com/free-vector/emoji-framed-background_53876-89769.jpg?w=2000");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+  }
+
+  @media screen and (max-width:580px) {
+    
+    .jokebg{
+      width: 40rem;
+      background: transparent;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZl6gCQ-7ERfbFxKb-eu2aK-SZ8LWA8xDFCQ&usqp=CAU");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    .jokeBox{
+      margin: 5px;
+    }
+    .jokeBox p{
+      color: aliceblue;
+    }
+  }

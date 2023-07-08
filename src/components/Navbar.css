@@ -1,0 +1,195 @@
+.prenav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 22px;
+  padding-right: 50%;
+  /* padding-left: 50%; */
+  background-color:#adadad;
+  
+}
+.prenav i{
+  color: black;
+}
+.active{
+  /* background-color:#adadad; */
+  color: black;
+}
+.li:hover,.lis:hover{
+  color: gold;
+  font-weight: 700;
+}
+
+.nav {
+  width: 100%;
+  list-style-type: none;
+  padding: 20px;
+  background-color: #1f2747;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 23px;
+}
+
+.nav img {
+  height: 90px;
+  width: 175px;
+  border-radius: 60px;
+  margin-bottom: -10px;
+  margin-top: -5px;
+  margin-right: 25px;
+  
+}
+
+.li {
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  font-weight: 400;
+}
+
+
+.lis{
+  color: aliceblue;
+  text-decoration: none;
+
+}
+.drpli{
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  font-weight: 400;
+}
+
+.dropbtn {
+  padding: 2px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  height: 330px;
+  min-width: 210px;
+  margin: 2px 0px 0px -150px;
+  border-radius: 10px;
+ z-index:20;
+}
+
+.dropdown-content a {
+  color: white;
+  text-align: start;
+  padding: 12px 38px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+  
+}
+
+ @media screen and (max-width:650px){
+
+ .nav{
+
+  width: 56rem;
+  align-items: center;
+ }
+  
+ }
+
+ @media screen and  (max-width:450px) {
+
+  .li{
+    
+    display: none;
+  }
+
+  .dropdown button{
+
+    color: white;
+    font-size: 35px;
+   
+  }
+  .lis{
+
+    font-size: 30px;
+    font-weight: 400;
+
+  }
+  
+ }
+
+ @media only screen and (min-width: 451px) and (max-width: 860px) {
+
+  .prenav{
+    width: 56rem;
+  }
+  .nav{
+
+    width: 56rem;
+    align-items: center;
+   }
+    
+  .li{
+
+    display: none;
+  }
+	
+  .dropdown button{
+
+    color: white;
+    font-size: 25px;
+   
+  }
+  .lis{
+
+    font-size: 30px;
+    font-weight: 400;
+
+  }  
+
+}
+
+@media screen and (min-width:860px) {
+
+  .dropbtn{
+    display: none;
+  }
+
+@media (max-width:900px) {
+  .prenav{
+    width: 56rem;
+  }
+  .nav{
+    width: 56rem;
+  }
+  .li{
+
+    display: none;
+  }
+} 
+  
+}
+@media(max-width:600px){
+  .prenav{
+    width: 56rem;
+  }
+}

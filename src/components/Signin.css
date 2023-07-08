@@ -1,0 +1,46 @@
+.cc{
+    padding-top: 10px;
+       
+}
+.im{
+    background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg');
+    background-size: cover;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+    text-align: start;
+    padding: 7px;
+    font-weight: bold;
+    
+    
+    
+    
+}
+.box1 input{
+   border-radius: 7px; 
+   height: 35px;  
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 3px 20px;
+    color: rgb(243, 243, 243);
+
+
+}
+
+
